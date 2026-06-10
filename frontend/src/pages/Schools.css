@@ -1,0 +1,69 @@
+.schools-page {
+  padding: 40px 0;
+}
+
+.search-box {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-box .form-group {
+  flex: 1;
+  margin: 0;
+}
+
+.search-box .form-group input {
+  margin-bottom: 0;
+}
+
+.search-box .button {
+  align-self: flex-end;
+}
+
+.schools-table {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.schools-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schools-table thead {
+  background-color: #f5f5f5;
+  border-bottom: 2px solid #ddd;
+}
+
+.schools-table th {
+  padding: 16px;
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+}
+
+.schools-table td {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.schools-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.schools-table a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.schools-table a:hover {
+  text-decoration: underline;
+}
